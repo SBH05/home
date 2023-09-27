@@ -14,6 +14,15 @@ public class RandomMaker {
      * 가위
      * */
 
+    public  static String rockPaperScissors() {
+
+        int result = (int) (Math.random() * 3) + 0;
+
+    }
+
+
+
+
     /*
      * static 메소드로 생성
      * 반환형 : String

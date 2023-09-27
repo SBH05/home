@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29079142-a743-4efa-bc75-a82654fa5a79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-anwer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-anwer/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/src/main/java/com/ohgiraffers/operatorPractice/Application3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Application1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/basic/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/level01/normal/RandomMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/00_dev/02_sublecture/01_JAVA/01_Java/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01",
+    "last_opened_file_path": "C:/00_dev/02_sublecture/01_JAVA/01_Java/chap03-method-and-api-lecture-source/src/main/java/com/ohgiraffers/section01/method",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +75,7 @@
       <workItem from="1695718579582" duration="1185000" />
       <workItem from="1695774184306" duration="8000" />
       <workItem from="1695774205836" duration="528000" />
+      <workItem from="1695778419067" duration="6600000" />
     </task>
     <servers />
   </component>
