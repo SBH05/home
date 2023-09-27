@@ -7,9 +7,14 @@ public class Application1 {
         
         /* Calculater 클래스의 메소드를 호출해서 실행 */
         Calculator c = new Calculator();
-        c.checkMethod();
-     //   c. sumTwoNumber(int num1 ,int num2);
 
+        c.checkMethod( );
+        String result =  c. sumTwoNumber(10, 20);
+        System.out.println(result);
+
+
+        c.multiTwoNumber(10, 20);
+        c.multiTwoNumber2(10, 20);
 
 
     }

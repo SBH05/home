@@ -6,6 +6,16 @@ public class Application {
     public static void main(String[] args) {
 
         /* RamdomMaker 클래스의 메소드를 호출해서 실행 */
+
+        RandomMaker r = new RandomMaker();
+
+        String result = r.rockPaperScissors();
+        System.out.println(result);
+
+
+        String result1 = r.tossCoin();
+        System.out.println(result1);
+
     }
 
 }
