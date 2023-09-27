@@ -14,5 +14,19 @@ public class Application2 {
          * 청소년
          * */
 
+        int a = 19;
+        if(a <= 13) {
+            System.out.println("어린이");
+        } if (13 < a && a <= 19) {
+            System.out.println("청소년");
+        } else {
+            System.out.println("성인");
+        }
+
+
+
+
+
+
     }
 }
