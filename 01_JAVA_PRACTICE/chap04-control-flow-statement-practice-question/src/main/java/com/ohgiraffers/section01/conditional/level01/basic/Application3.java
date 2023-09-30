@@ -18,8 +18,17 @@ public class Application3 {
         * */
 
         Scanner sc = new Scanner(System.in);
-        String n = sc.nextLine();
+        System.out.println("주민등록번호를 입력해주세요(- 포함)");
 
+        char n = sc.nextLine().charAt(7);
+
+
+        if( n == '1' || n == '3') {
+            System.out.println("남자 입니다");
+        }
+        if( n == '2' || n == '4') {
+            System.out.println("여자입니다");
+        }
 
     }
 }

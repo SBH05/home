@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application11 {
 
     public static void main(String[] args) {
@@ -13,5 +15,32 @@ public class Application11 {
             정답인 경우 “정답입니다, n회 만에 정답을 맞추셨습니다.”처럼 몇 번째에 정답을 맞췄는지 출력하세요.
        */
 
+        Scanner sc = new Scanner(System.in);
+
+        int random = (int) (Math.random() * 10) + 1;
+
+        int count =0;
+
+        while (true) {
+
+            System.out.print(" 정수를 입력하세요 : ");
+            int num = sc.nextInt();
+
+
+            if (random > num) {
+                count++;
+                System.out.println("입력하신 정수보다 작습니다.");
+
+            } else if (random < num) {
+                count++;
+                System.out.println("입력하신 정수보다 큽니다.");
+
+            } else if (random == num) {
+                count++;
+                System.out.println("정답입니다, " + count +"회 만에 정답을 맞추셨습니다");
+                break;
+            }
+
+        }
     }
 }

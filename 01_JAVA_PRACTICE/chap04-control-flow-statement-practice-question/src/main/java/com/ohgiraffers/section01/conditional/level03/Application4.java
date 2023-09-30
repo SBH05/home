@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application4 {
 
     public static void main(String[] args) {
@@ -25,7 +27,26 @@ public class Application4 {
         *
         * */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("국어점수를 입력하세요 : ");
+        int kScore = sc.nextInt();
 
+        System.out.print("영어점수를 입력하세요 : ");
+        int eScore = sc.nextInt();
 
+        System.out.print("수학점수를 입력하세요 : ");
+        int mScore = sc.nextInt();
+
+        int ver = (kScore + eScore + mScore) / 3;
+
+        if (ver >= 60 && kScore >= 40 && eScore >= 40 && mScore >= 40) {
+            System.out.println("국어 : " + kScore);
+            System.out.println("영어 : " + eScore);
+            System.out.println("수학 : " + mScore);
+            System.out.println("평균 : " + ver);
+            System.out.println("축하합니다, 합격입니다!");
+        }else {
+            System.out.println("불합격입니다.");
+        }
     }
 }
