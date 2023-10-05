@@ -20,6 +20,21 @@ public class Application2 {
         System.out.print("주민등록번호를 입력하세요(-포함) : ");
         String num = sc.nextLine();
 
+        System.out.println(num.length());
+        System.out.println(num.charAt(0));
+        System.out.println(num.charAt(1));
+
+//
+//        for (int i = 0; i < num.length() ; i++) {
+//                if (i > 7) {
+//                    i = '*';
+//                   // num.charAt(i);
+//                   // System.out.print('*');
+//                }
+//            System.out.print(num.charAt(i));
+//        }
+
+
 
     }
 }
