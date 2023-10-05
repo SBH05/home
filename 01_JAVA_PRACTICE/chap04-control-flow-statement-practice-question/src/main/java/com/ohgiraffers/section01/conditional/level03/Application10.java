@@ -36,12 +36,11 @@ public class Application10 {
 
         while (true) {
 
-            String exit = "";
 
             System.out.print("연산자(+, -, *, /, %) : ");
             String op = sc.next();
 
-            if (op == exit){
+            if (op.equals("exit")){
                 System.out.println(" 프로그램을 종료합니다.");
                 break;
             }
@@ -57,7 +56,7 @@ public class Application10 {
                 continue;
             }
 
-            if(op != exit){
+
 
                 switch (op) {
 
@@ -89,10 +88,10 @@ public class Application10 {
                     default:
                         System.out.println("없는 연산자입니다. 다시 입력해주세요.");
                         continue;
+
+
+
                 }
-
-
-            }
 
             break;
         }
