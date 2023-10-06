@@ -26,28 +26,20 @@ public class Application1 {
         char ch = sc.next().charAt(0);
         int conunt = 0;
 
-        String[] arr = new String[str.length()];
+        char[] arr = new char[str.length()];
+        /*
+        arr[0] = 'h'
+        arr[1] = 'e'
+        arr[2] = 'l'
+         */
 
         for (int i = 0; i <str.length(); i++) {
-            arr[i] = str;
-            System.out.println(arr[i]);
+            arr[i] = str.charAt(i);
+            if(arr[i] == ch){
+                conunt++;
+            }
         }
-
-
-
-
-
-//        String str = sc.nextLine();
-//        System.out.print("문자 하나를 입력하세요 : ");
-//        char ch = sc.next().charAt(0);
- //       int count = 0;
-//
-//        for (int i = 0; i < str.length(); i++){
-//            if (str.charAt(i) == ch) {
-//                count++;
-//            }
-//        }
-//                System.out.println("입력하신 문자열 " + str + "에서 찾으시는 문자 " + ch + "은" + count + " 개 입니다.");
+        System.out.print("입력하신 문자열 " + str + "에서 찾으시는 문자 " + ch + "은" + conunt + "개 입니다.");
 
 
     }

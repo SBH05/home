@@ -10,5 +10,7 @@ public class Application4 {
 
 		  Random 클래스 사용 혹은 Math.random() 메소드를 사용
 	   */
+
+
     }
 }
