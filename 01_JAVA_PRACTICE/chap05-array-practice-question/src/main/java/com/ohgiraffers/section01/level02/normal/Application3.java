@@ -32,30 +32,22 @@ public class Application3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("홀수인 양의 정수를 입력하세요 : ");
         int num = sc.nextInt();
-        int[] arr = new int[num];
 
-        /*
-        arr[0] = 1
-        arr[1] = 2
-
-         */
 
         if (num % 2 != 0) {
+
+            int[] arr = new int[num];
+
             for (int i = 1; i <= num / 2 + 1; i++) {
-                System.out.print(i + " ");
+                arr[i] = i;
+                System.out.print(arr[i] + " ");
             }
-            for (int i = 1; i < num / 2; i++) {
-
-                for (int j = 0; j < i; j++) {
-
-                    if (arr[i] > arr[j]) {
-                        int temp = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = temp;
-                        System.out.println();
-                    }
-                }
+            for (int i = num / 2; i > 0; i--) {
+                arr[i] = i;
+                System.out.print(arr[i] + " ");
             }
+
+
         } else {
             System.out.println("양수 혹은 홀수만 입력해야 합니다.");
         }
@@ -65,12 +57,3 @@ public class Application3 {
 
 
 
-
-/*
-            for (int i = 1; i <= num / 2 + 1; i++) {
-                System.out.print(i + " ");
-            }
-            for (int j = num / 2; j > 0; j--) {
-                System.out.print(j + " ");
-            }
- */
