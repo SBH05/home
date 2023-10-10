@@ -26,11 +26,24 @@ public class Application {
 
         System.out.println("==================================================================");
 
-        int salary = 0;
-        double point = 0;
+        int salary = 3000000;
+        double point = 0.2;
         double result = (salary + (salary * point)) * 12;
-        
+        System.out.println("김말똥의 연봉 : " + result + "원");
 
+        int salary1 = 4000000;
+        double point1 = 0.3;
+        double result1 = (salary1 + (salary1 * point1)) * 12;
+        System.out.println("홍길동의 연봉 : " + result1 + "원");
+
+        int salary2 = 1000000;
+        double point2 = 0.01;
+        double result2 = (salary2 + (salary2 * point2)) * 12;
+        System.out.println("강말순의 연봉 : " + result2 + "원");
+        System.out.println("======================================");
+
+        double var = (result + result1 + result2)/3;
+        System.out.println("직원들의 연봉의 평균 : " + var + "원");
 
 
 
