@@ -8,16 +8,16 @@ public class Application {
 
     public static void main(String[] args) {
 
-        while (true) {
-            StudentDTO[] stu = new StudentDTO[10];
+        StudentDTO[] stu = new StudentDTO[10];
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
 
-            Scanner sc = new Scanner(System.in);
+        while (true) {
+
             System.out.print("계속 추가하겠습니까?(y or n) : ");
             char an = sc.next().charAt(0);
 
-            int count = 0;
-
-            if (an == 'y') {
+            if (an == 'y'|| an == 'Y') {
                 System.out.print("학년을 입력하세요 : ");
                 int grade = sc.nextInt();
                 System.out.print("반을 입력하세요 : ");
@@ -31,18 +31,21 @@ public class Application {
                 int eng = sc.nextInt();
                 System.out.print("수학점수를 입력하세요 : ");
                 int math = sc.nextInt();
-
+                count++;
                 for (int i = 0; i < stu.length; i++) {
                     stu[i] = new StudentDTO(grade, classroom, name, kor, eng, math);
-                    count++;
-                    System.out.println(stu[i].information());
+                    System.out.println(count + "번째 입니다.");
                     break;
-                }
-            } else {
-                    break;
-            }
-
-
+                } continue;
+            }break;
         }
+
+        for (int i = 0; i < stu.length; i++){
+            if (stu[i] != null){
+            System.out.println(stu[i].information());
+            }
+        }
+
+
     }
 }
