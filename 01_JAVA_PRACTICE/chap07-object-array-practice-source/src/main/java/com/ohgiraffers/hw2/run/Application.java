@@ -32,18 +32,23 @@ public class Application {
                 System.out.print("수학점수를 입력하세요 : ");
                 int math = sc.nextInt();
                 count++;
-                for (int i = 0; i < stu.length; i++) {
-                    stu[i] = new StudentDTO(grade, classroom, name, kor, eng, math);
-                    System.out.println(count + "번째 입니다.");
-                    break;
-                } continue;
-            }break;
+
+                stu[count] = new StudentDTO(grade, classroom, name, kor, eng, math);
+
+            }else if (an == 'n'){
+                break;
+            }
         }
+
 
         for (int i = 0; i < stu.length; i++){
             if (stu[i] != null){
-            System.out.println(stu[i].information());
+                System.out.println(stu[i].information());
+                break;
             }
+                int sum = stu[i].getKor() + stu[i].getEng() + stu[i].getMath();
+                System.out.println(stu[i].information() + ", 평균=" + sum / 3);
+
         }
 
 

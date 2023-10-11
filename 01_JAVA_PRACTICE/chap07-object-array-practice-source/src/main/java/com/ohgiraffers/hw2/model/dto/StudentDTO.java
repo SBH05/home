@@ -20,6 +20,54 @@ public class StudentDTO {
         this.math = math;
     }
 
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getClassroom() {
+        return classroom;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getKor() {
+        return kor;
+    }
+
+    public int getEng() {
+        return eng;
+    }
+
+    public int getMath() {
+        return math;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public void setClassroom(int classroom) {
+        this.classroom = classroom;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setKor(int kor) {
+        this.kor = kor;
+    }
+
+    public void setEng(int eng) {
+        this.eng = eng;
+    }
+
+    public void setMath(int math) {
+        this.math = math;
+    }
+
     public String information() {
         return "학년: " + this.grade +
                 "  반: " + this.classroom +
