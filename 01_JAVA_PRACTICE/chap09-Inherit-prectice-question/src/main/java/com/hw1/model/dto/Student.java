@@ -7,11 +7,10 @@ public class Student extends Person {
 
     public Student(){}
 
-    public Student(String name, int age, double height, double weight) {
-        super(name, age, height, weight);
-    }
 
-    public Student(int grade, String major) {
+    public Student(String name, int age, double height, double weight, int grade, String major) {
+        super(age, height, weight);
+        super.name = name;
         this.grade = grade;
         this.major = major;
     }
@@ -32,5 +31,14 @@ public class Student extends Person {
         this.major = major;
     }
 
+    public String information(){
+
+        return
+                super.information() +
+                ", 학년 : " + grade +
+                ", 전공 : " + major ;
+
+
+    }
 
 }
