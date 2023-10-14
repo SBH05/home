@@ -41,8 +41,6 @@ public class Application {
 
 
         for (int i = 0; i < count; i++){
-            if (stu[i] != null){
-            }
                 int sum = stu[i].getKor() + stu[i].getEng() + stu[i].getMath();
                 System.out.println(stu[i].information() + ", 평균=" + sum / 3);
         }

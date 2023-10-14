@@ -16,7 +16,7 @@ public class Run {
         st[2] = new Student("강개순", 23, 167.0, 45.0, 4, "정보통신공학과");
 
         for (Student s : st) {
-            //  System.out.println(s.information());
+            System.out.println(s.information());
         }
 
         Employee[] emp = new Employee[10];
@@ -45,14 +45,14 @@ public class Run {
             System.out.println("계속 추가 하겠습니까? ( Y (y) or  N (n))");
             char an = sc.next().charAt(0);
 
-            if(an =='Y' || an == 'y' ) {
-
-            }else {
+            if (an  == 'n' || an == 'N'){
                     break;
             }
         }
-        for (Employee e : emp){
-            System.out.println(emp[count].information());
+
+        for (int i =0; i < count; i++){
+
+            System.out.println(emp[i].information());
         }
 
     }
