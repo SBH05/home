@@ -59,6 +59,9 @@ public class LibraryManager {
         public int rentBook(int index) {
             int result = 0;
 
+            return result;
+
+
 
 
         }
